@@ -1,0 +1,139 @@
+
+.form {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: --var(article-color);
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+}
+
+.form:hover {
+    transform: scale(1.05);
+    border: 1px solid black;
+}
+
+#heading {
+    text-align: center;
+    margin: 1em;
+    color: var(--text-color);
+    font-size: 1.2em;
+}
+.field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: var(--text-color);
+    background-color: var(--code-color);
+}
+
+.input-field {
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: var(--text-color);
+}
+
+.form .btn {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1em;
+  }
+  .btn1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 1em;
+    margin-bottom: 3em;
+  }
+  
+  .button1 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: var(--code-color);
+    color: var(--text-color);
+  }
+  
+  .button1:hover {
+    background-color: var(--div-color);
+    color: var(--text-color);
+  }
+  
+  .button2 {
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: var(--code-color);
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .button2:hover {
+    background-color: var(--div-color);
+    color: var(--text-color);
+  }
+  
+  .button3 {
+    margin-bottom: 3em;
+    padding: 0.5em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: var(--code-color);
+    color: var(--text-color);
+    text-decoration: none;
+    text-align: center;
+  }
+  
+.button3:hover {
+  background-color:  var(--div-color);;
+  color: var(--text-color);
+}
+#error-msg {
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  color: var(--text-color);
+  font-size: .8em;
+  text-align: center;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 10px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  background-color: var(--article-color);
+  border-radius: 25px;
+  transition: .4s ease-in-out;
+}
+.backto {
+    margin-top: 30px;
+    text-decoration: none;
+    color: var(--text-color)!important;
+}
